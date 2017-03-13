@@ -1,0 +1,5 @@
+module COpenCC [system] {
+    header "/usr/local/include/opencc/opencc.h"
+    link "opencc"
+    export *
+}
